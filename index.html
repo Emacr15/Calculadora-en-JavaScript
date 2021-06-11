@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JavaScript</title>
+</head>
+<body>
+    <h1>Calculadora En JavaScript</h1>
+    
+    <form id="calculadora" name="">
+        <label>Primer Valor</label>
+        <br>  
+        <br>     
+        <input type="number" name="" id="valor1" autofocus placeholder="0">
+        <br>
+        <br>
+        <label>Segundo Valor</label>
+        <br>
+        <br>
+        <input type="number" name="" id="valor2" placeholder="0">
+        <br>
+        <br>
+        <br>
+        <button onclick="borrar">borrar</button>
+        <button  type="button" onclick= "Suma();">suma</button>
+        <button  type="button" onclick="Resta();">Restar</button>
+        <button  type="button" onclick="Multiplicacion();">Multiplicar</button>
+        <button  type="button" onclick="Division();">Dividir</button>
+
+        <p>El resultado es: <span id="elResultado"></span></p>
+    </form>
+    
+        <script src="JavaScript.js"></script>
+    
+</body>
+</html>
